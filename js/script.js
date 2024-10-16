@@ -11,7 +11,7 @@
 "ABC" = String
 
 true -> boolean
-false -> */
+false -> boolean */
 
 //criação de variavéis
 
@@ -20,7 +20,7 @@ var nome = 'ruan';
 const cpf = '123.456.789-12';
 let idade = 17;
 /*concatenação tradicional :
-document.write('olá ,mundo'); 
+document.write('olá'+nome+',mundo'); 
 
 concatenação Template String
 document.write(`olá ${nome} seu cpf é ${cpf} e você tem ${idade} anos`);  */
@@ -95,6 +95,8 @@ var resultado1 = (media.valo1 + media.valo2 + media.valo3)/3;
 
 //console.log(resultado1)
 
+
+/*
 var valorU = prompt('digite um valor')
 
 console.log(`${valorU} x 1 = ${valorU * 1}`)
@@ -107,3 +109,11 @@ console.log(`${valorU} x 7 = ${valorU * 7}`)
 console.log(`${valorU} x 8 = ${valorU * 8}`)
 console.log(`${valorU} x 9 = ${valorU * 9}`)
 console.log(`${valorU} x 10 = ${valorU * 10}`)
+*/
+
+
+
+var n1 = Number (prompt('digite o primeiro valor::'))
+var n2 = Number (prompt('digite o segundo valor::'))
+var soma = n1 + n2
+console.log(`a soma de ${n1} e ${n2} é ${soma}`)
